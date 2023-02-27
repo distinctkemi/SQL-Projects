@@ -2,6 +2,8 @@
 This repository contains some projects I have done with SQL
 
 **SQL QUERY** 
+
+
 With PopulationVaccinated (Continent, Location, Date, Population, PeopleVaccinated, New_Vaccinations)
 AS 
 (
@@ -18,4 +20,6 @@ SELECT * , (PeopleVaccinated/Population) * 100
 FROM PopulationVaccinated
 
 **RESULT**
+
+
 ![alt text](https://github.com/distinctkemi/SQL-Projects/blob/main/CTE%20Result.JPG)
